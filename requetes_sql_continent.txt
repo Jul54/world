@@ -1,0 +1,27 @@
+***Demographie:
+
+***nombre de pays total:239
+SELECT COUNT(*) FROM country
+
+***nombre de pays pour tel continent:51
+SELECT COUNT(*) FROM country WHERE `Continent`='Asia'
+
+***population total de tel continent:3705025700
+
+SELECT SUM(Population) FROM country WHERE `Continent`='Asia'
+
+***Surface total par continent:31881005.00
+
+SELECT SUM(`SurfaceArea`) FROM country WHERE `Continent`='Asia' 
+
+***Surface total pour tous les continents:148956306.90
+SELECT SUM(`SurfaceArea`) FROM country
+
+***Pourcentage de la surface de tel continent par rapport a la surface totale de tous les continents:
+
+(Surface_tel_continent/Surface_tous_continents)*100 , par ex pour l'asie cela fait 21,4%
+
+
+***Pays le plus habité:Chine
+
+SELECT name FROM `country` WHERE Continent='Asia' ORDER BY `country`.`Population` DESC LIMIT 1
