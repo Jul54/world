@@ -1,0 +1,15 @@
+### Projet en groupe
+
+Objectif : Produire cette page : 
+
+Étape 1 : Le développeur A crée 3 fichiers :
+    - index.php
+    - functions.php
+    - styles.css
+
+Étape 2 :
+    - Le développeur A crée une branche 'stats-country'
+    - Le développeur B crée une branche 'stats-continent'
+    - S'il y a un développeur C : il crée une branche 'stats-global'
+
+Étape 3 : Chaque développeur travaille sur la feature qu'il a choisi. Quand une fonctionnalité est développée, on push (sync) puis on génère une pull request pour merger avec le master.
