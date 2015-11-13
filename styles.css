@@ -1,0 +1,41 @@
+body section{
+	width: 980px;
+	margin:auto;
+}
+
+#monde{
+
+	display: inline-block;
+	border:1px solid black;
+	
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 400px;
+	height: 157px;
+}
+article #monde{
+	margin:0px; 
+}
+#monde p{
+	margin: 0px;
+	margin-left: 20px;
+}
+
+h1{
+	margin-left: 20px;
+}
+
+article #monarch{
+	margin: 0px;
+}
+
+#monarch{
+	display: inline-block;
+	border:1px solid black;
+	margin-top: 20px;
+	top: 0px;
+}
+
+#monarch p{
+	margin-left: 20px;
+}
